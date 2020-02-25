@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello from React Developer!
+          Hello from Doecker-React Travis CI!
         </a>
       </header>
     </div>
