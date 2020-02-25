@@ -5,5 +5,5 @@ services:
 before_install:
     - docker build -t vivek170161/docker-react -f Dockerfile.dev .
 
-    script:
-        - docker run -e CI=true vivek170161/docker-react npm run test -- --coverage
+script:
+    - docker run -e CI=true vivek170161/docker-react npm run test -- --coverage
